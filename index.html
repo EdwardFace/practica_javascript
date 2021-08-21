@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica-Formulario</title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <h1 class="titulo">Practica-Formulario</h1>
+    <div class="viewForm">
+        <hr>
+        <h2>-registro datos-</h2>
+        <form action="#" id="formulario">
+
+            <label class="titleLabel">Nombre:</label>
+            <br>
+            <input type="text" name="nom" id="nom">
+            <br>
+
+            <span id="err_nombre" class="error">*Error, nombre vacio o incorrecto</span>
+
+            <label class="titleLabel">Apellidos:</label>
+            <br>
+            <input type="text" name="apellidos" id="apell">
+            <br>
+
+            <span id="err_apellidos" class="error">Error, apellidos vacios o incorrectos</span>
+
+            <label class="titleLabel">Edad:</label>
+            <br>
+            <input type="text" name="edad" id="edad">
+            <br>
+            <span id="err_edad" class="error">Error, edad vacio o incorrectos</span>
+
+            <input type="submit" value="Enviar datos">
+        </form>
+    </div>
+    <div class="datos" id="datos">
+        <h3>datos de usuario</h3>
+        <hr>
+        <p id="p_nombre">
+            Nombre : <span></span>
+        </p>
+        <p id="p_apellidos">
+            Apellidos : <span></span>
+        </p>
+        <p id="p_edad">
+            Edad : <span></span>
+        </p>
+    </div>
+
+    
+    
+
+</body>
+</html>
